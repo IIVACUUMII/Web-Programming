@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice 2</title>
+</head>
+<body>
+    <form>
+        Name<br>
+        <input type="text" name="name" value="Your Name">
+        <br><br>
+                
+        Email<br>
+        <input type="text" name="email" value="Your email">
+        <br><br>
+            
+        Sex<br>
+        <input type="radio" name="gender" value="male" checked>Male
+        <input type="radio" name="gender" value="female">Female
+        <br><br>
+        
+        Current status<br>
+        <input type="checkbox" name="student" value="student">Student<br>
+        <input type="checkbox" name="student" value="employed">Employed<br>
+        <input type="checkbox" name="student" value="unemployed">Unemployed
+        <br><br>
+        
+        Birthday<br>
+        <input type="date" name="bday">
+        <br><br>
+        
+        Skills and Technologies<br>
+        <select name="SaT" size="11" multiple>
+            <optgroup label="Tech skills">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+                <option value="asp.net">ASP.NET</option>
+                <option value="php">PHP</option>
+            </optgroup>
+            <optgroup label="Soft skills">
+                <option value="time_management">Time management</option>
+                <option value="proactivity">Proactivity</option>
+                <option value="teamwork">Teamwork</option>
+                <option value="ls">Leadership</option>
+            </optgroup>
+        </select>
+        <br><br>
+        
+        Photo<br>
+        <input type="file"  value="photo" accept=".jpg, .jpeg, .png">
+        <br><br>
+            
+        Comments<br>
+        <textarea name="comments" rows="5" cols="30"></textarea>
+        <br><br>
+        
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+                
+    </form>
+</body>
+</html>
